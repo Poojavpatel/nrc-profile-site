@@ -5,13 +5,30 @@ api_endpoint = http://nikeplus.nike.com/nikeplus/v1/services;
 
 npm_repo = https://www.npmjs.com/package/node-nikerunclub;
    
-      
+## Building a Blog With Gatsby js
+1. Install the Gatsby CLI   
+    `npm install -g gatsby-cli`
+1. Create a new site
+    `gatsby new gatsby-site`
+1. Change directories into site folder
+    `cd gatsby-site`
+1. Start the development server
+    `gatsby develop`
+    Your gatsby site will be ready, you can access the gatsby development environment at localhost:8000 by default. 
+    You can edit JavaScript pages in the src/pages and the changes will be reloaded automatically in the browser.
 
+1. Create a production build
+    `gatsby build`
+    With the build command, Gatsby will perform production build for your site,
+    which in other words means generating static HTML pages.
+
+1. Serve the production build locally
+    `gatsby serve`
+    Lastly, with the shell command, Gatsby will start local HTML server for testing your build site
+
+---
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<h1 align="center">
-  Gatsby's default starter
-</h1>
-
+### Gatsby's default starter
 Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
 
 _Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
