@@ -13,8 +13,9 @@ npm_repo = https://www.npmjs.com/package/node-nikerunclub;
 1. Change directories into site folder
     `cd gatsby-site`
 1. Start the development server
-    `gatsby develop`
-    Your gatsby site will be ready, you can access the gatsby development environment at localhost:8000 by default. 
+    `gatsby develop`   
+    Your gatsby site will be ready, you can access the gatsby development environment at localhost:8000 by default.   
+    GraphiQL will serve on http://localhost:8000/___graphql
     You can edit JavaScript pages in the src/pages and the changes will be reloaded automatically in the browser.
 
 1. Create a production build
@@ -25,6 +26,23 @@ npm_repo = https://www.npmjs.com/package/node-nikerunclub;
 1. Serve the production build locally
     `gatsby serve`
     Lastly, with the shell command, Gatsby will start local HTML server for testing your build site
+
+---
+## Project Steps
+1. To run the project 
+`gatsby develop`
+
+2. To add sass
+`npm install --save node-sass gatsby-plugin-sass`
+change layout.css to layout.scss and all related imports
+
+3. To read data from markdowmn files   
+    1. (if not already present in config)   
+       `npm install --save gatsby-source-filesystem`
+    1. Make related changes in plugin options.
+    1. We use remark to transform markdown files   
+       `npm install --save gatsby-transformer-remark`
+
 
 ---
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
