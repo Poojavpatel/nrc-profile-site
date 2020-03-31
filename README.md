@@ -1,4 +1,4 @@
-# NRC Profile Site
+# Gatsby Project
 
 api_endpoint = http://nikeplus.nike.com/nikeplus/v1/services;
 (not working)
